@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/chat", "destination": "/api/index" },
+    { "source": "/health", "destination": "/api/index" },
+    { "source": "/chat-test", "destination": "/api/index" }
+  ],
+  "functions": { "api/index.js": { "maxDuration": 60 } }
+}
